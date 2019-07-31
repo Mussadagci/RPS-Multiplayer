@@ -1,6 +1,6 @@
 body {
-    background-image: url("./images/background.jpg");
-    background-color: antiquewhite;
+    background-image: url("./images/background.png");
+    background-color: rgb(148, 67, 98);
     background-position: center 25vh;
     background-repeat: repeat;
     font-family: ‘Amatic SC’, cursive;
@@ -21,12 +21,16 @@ h3 {
 }
 
 .text-center {
-    line-height: 110px;
+    line-height: 90px;
 }
 
 #js-newGameButton {
     font-size: 50px;
    font-weight: 700;
+   background: hsl(59, 64%, 74%);
+   font-style: inherit;
+   text-emphasis:
+   
 }
 
 #js-newGameElement > .row {
@@ -49,15 +53,15 @@ h3 {
 
 
 .btnRock {
-    background-color: green;
+    background-color: rgb(70, 5, 5);
 }
 
 .btnPaper {
-    background-color: red;
+    background-color: rgb(92, 57, 74);
 }
 
 .btnScissors {
-    background-color: rgb(55, 0, 255);
+    background-color: rgba(87, 97, 34, 0.918);
 }
 
 

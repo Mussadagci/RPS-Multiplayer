@@ -2,19 +2,9 @@ var newGameBtn = document.getElementById("js-newGameButton");
 
 newGameBtn.addEventListener("click" , newGame);
 
-var pickRock =document.getElementById("js-playerPick_rock"),
-  pickPaper = document.getElementById("js-playerPick_paper");
-  varScissors = document.getElementById("js-playerPick_scissors");
-
-  pickRock.addEventListener("click", function() {
-        playerPick("rock")
-  });
-  pickRock.addEventListener("click", function() {
-    playerPick("paper")
-});
-pickRock.addEventListener("click", function() {
-    playerPick("scissors")
-});
+$(".btnOption").on("click", function()
+{ playerPick($(this).attr("data-name"))
+})
 
 var gameState = "notStarted"
   player = {
