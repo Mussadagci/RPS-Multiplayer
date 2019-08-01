@@ -76,9 +76,9 @@ function newGame() {
       playerNameElem.innerHTML = player.name;
       setGamePoints();
     }
-  }); // koniec wywolania swal
+  });
  
- } // domkniecie funkcji newGame
+ } 
  
  function playerPick(playerPick) {
     console.log(playerPick);
