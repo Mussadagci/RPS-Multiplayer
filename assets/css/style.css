@@ -27,9 +27,9 @@ h3 {
 #js-newGameButton {
     font-size: 50px;
    font-weight: 700;
-   background: rgb(135, 207, 102);
+   background: rgb(168, 63, 86);
    font-style: inherit;
-   text-emphasis:
+   text-emphasis:color;
    
 }
 
@@ -91,6 +91,7 @@ h3 {
         margin: 0 25px;
     }
 }
+
 
 @media (max-width: 768px) {
     
