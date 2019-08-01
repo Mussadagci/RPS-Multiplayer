@@ -27,7 +27,7 @@ h3 {
 #js-newGameButton {
     font-size: 50px;
    font-weight: 700;
-   background: hsl(59, 64%, 74%);
+   background: rgb(135, 207, 102);
    font-style: inherit;
    text-emphasis:
    
@@ -53,15 +53,15 @@ h3 {
 
 
 .btnRock {
-    background-color: rgb(70, 5, 5);
+    background-color: rgb(147, 156, 16);
 }
 
 .btnPaper {
-    background-color: rgb(92, 57, 74);
+    background-color: rgb(30, 182, 124);
 }
 
 .btnScissors {
-    background-color: rgba(87, 97, 34, 0.918);
+    background-color: rgba(216, 207, 85, 0.918);
 }
 
 
@@ -95,7 +95,7 @@ h3 {
 @media (max-width: 768px) {
     
     body {
-        background:#28B4E5;
+        background:rgb(16, 162, 167);
         background-position: center 15vh;
         font-size: 25px;
     }
@@ -105,4 +105,17 @@ h3 {
     #js-playerPick_scissors {
         margin: 0;
 }
+}
+
+@media (max-width: 320px) {
+    body {
+        background: hsl(197, 24%, 57%);
+        background-position: center 7vh;
+        font-size: 12px;
+    }
+    #js-playerPick_rock,
+    #js-player-Pick_paper,
+    #js-playerPick_scissors{
+        margin: -0;
+    }
 }
