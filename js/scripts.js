@@ -108,7 +108,7 @@ function newGame() {
     var winnerIs = "player";
  
     if (playerPick == computerPick) {
-        winnerIs = "noone"; // remis
+        winnerIs = "noone"; 
         playerResultElem.innerHTML = "Tie!";
         computerResultElem.innerHTML = "Tie!";
     } else if (
